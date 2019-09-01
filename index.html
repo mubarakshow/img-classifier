@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Img Classifier</title>
+  <!-- Load the latest version of TensorFlow.js -->
+  <script src="https://unpkg.com/@tensorflow/tfjs"></script>
+  <script src="https://unpkg.com/@tensorflow-models/mobilenet"></script>
+  <script src="https://unpkg.com/@tensorflow-models/knn-classifier"></script>
+</head>
+<body>
+  <h1>Image Classifier</h1>
+  <div id="console"></div>
+  <!-- <img src="https://i.imgur.com/JlUvsxa.jpg" crossOrigin alt="" id="img" width="227" height="227"> -->
+  <video autoplay playsinline muted id="webcam" width="360" height="360"></video>
+  
+  <button id="class-a">Add A</button>
+  <button id="class-b">Add B</button>
+  <button id="class-c">Add C</button>
+  
+  <script src="index.js"></script>
+</body>
+</html>
